@@ -15,14 +15,15 @@ This folder is the source of truth for product, architecture, and changes.
 | # | Doc | Purpose |
 |---|-----|---------|
 | 1 | [DEMO.md](./DEMO.md) | Live walkthrough + checklist |
-| 2 | [PROJECT-COMPLETE.md](./PROJECT-COMPLETE.md) | Full technical + product deep dive |
-| 3 | [01-PRODUCT.md](./01-PRODUCT.md) | Problem, formula, non-goals |
-| 4 | [03-FEATURES.md](./03-FEATURES.md) | Shipped feature list |
-| 5 | [05-ARCHITECTURE.md](./05-ARCHITECTURE.md) | System design |
-| 6 | [API.md](./API.md) | HTTP + WebSocket |
-| 7 | [SECURITY.md](./SECURITY.md) | Threat model |
+| 2 | [DECISIONS.md](./DECISIONS.md) | Considered / deferred / rejected (and why) |
+| 3 | [PROJECT-COMPLETE.md](./PROJECT-COMPLETE.md) | Full technical + product deep dive |
+| 4 | [01-PRODUCT.md](./01-PRODUCT.md) | Problem, formula, non-goals |
+| 5 | [03-FEATURES.md](./03-FEATURES.md) | Shipped feature list |
+| 6 | [05-ARCHITECTURE.md](./05-ARCHITECTURE.md) | System design |
+| 7 | [API.md](./API.md) | HTTP + WebSocket |
+| 8 | [SECURITY.md](./SECURITY.md) | Threat model |
 
-Repo entry: **[../README.md](../README.md)**
+Repo entry: **[../README.md](../README.md)** — live demo + video links
 
 ---
 
@@ -31,6 +32,7 @@ Repo entry: **[../README.md](../README.md)**
 | Doc | Purpose |
 |-----|---------|
 | [PROJECT-COMPLETE.md](./PROJECT-COMPLETE.md) | **Complete project reference** (math, features, integrations, strategy) |
+| [DECISIONS.md](./DECISIONS.md) | Approaches considered, deferred, rejected |
 | [EDGE-CASES.md](./EDGE-CASES.md) | Edge-case inventory & fix waves (analysis before patches) |
 | [SUGGESTION-ANALYSIS.md](./SUGGESTION-ANALYSIS.md) | External critique vs codebase — what to build for CODE |
 | [01-PRODUCT.md](./01-PRODUCT.md) | Product definition, scoring model |
