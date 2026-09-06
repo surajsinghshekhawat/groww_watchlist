@@ -198,7 +198,7 @@ In progress.
 
 - Judge acceptance walk per `docs/DEMO.md`.
 
-## 2026-09-05 ÔøΩ Tier 1+2 completion wave
+## 2026-09-05 ù Tier 1+2 completion wave
 
 ### What we did
 
@@ -217,7 +217,7 @@ In progress.
 
 - Native mobile / FCM / Chrome extension / Tier 3 ML
 
-## 2026-09-05 ÔøΩ Multi-tab demo UX + RAG + live-sim + notes
+## 2026-09-05 ù Multi-tab demo UX + RAG + live-sim + notes
 
 ### What we did
 
@@ -231,13 +231,13 @@ In progress.
 
 ### LLM for user
 
-- Prefer Groq `llama-3.1-8b-instant` ÔøΩ set `ENABLE_LLM=true` + `LLM_API_KEY`
+- Prefer Groq `llama-3.1-8b-instant` ù set `ENABLE_LLM=true` + `LLM_API_KEY`
 
 ### Still deferred
 
 - Native mobile / FCM / Chrome extension / Tier 3 ML / licensed live exchange feed
 
-## 2026-09-05 ÔøΩ Provenance, ignored strip, eval, notes-in-explain
+## 2026-09-05 ù Provenance, ignored strip, eval, notes-in-explain
 
 ### What we did
 
@@ -253,7 +253,7 @@ In progress.
 - `python -m app.eval` ? 5/5
 - pytest green
 
-## 2026-09-05 ÔøΩ Mark-seen / reset / live-sim attention fixes
+## 2026-09-05 ù Mark-seen / reset / live-sim attention fixes
 
 ### What we did
 
@@ -272,7 +272,7 @@ In progress.
 
 ---
 
-## 2026-09-05 ÔøΩ Competition packaging
+## 2026-09-05 ù Competition packaging
 
 ### Decision
 
@@ -285,7 +285,7 @@ In progress.
 - Rewrote README + DEMO + 00-INDEX for Groww CODE judges.
 - Canvas: `groww-code-competition` brief for pitch/map.
 
-## 2026-09-05 ÔøΩ Continuous S + trust polish + docs/test sweep
+## 2026-09-05 ù Continuous S + trust polish + docs/test sweep
 
 ### What we did
 - Continuous Significance inside severity bands; realistic MAD baseline + z cap
@@ -296,4 +296,16 @@ In progress.
 ### Verify
 - `python -m pytest -q`
 - `python -m app.eval` ? 5/5
-- Hard-refresh Attention: different S on same-tier cards; INFY conflict line; no stray comma
+- Hard-refresh Attention: different S on same-tier cards; TCS conflict line; no stray comma
+
+---
+
+## 2026-09-07 ó Submission polish
+
+### What we did
+- Aligned docs to `DEMO_CONFLICT_SYMBOL=TCS`; cleaned `.env.example` / CHANGELOG encoding
+- Removed unused `@tanstack/react-query`; bumped Next.js to 15.5.25
+- Full verify: pytest 28, eval 5/5, lint, tsc, production build
+
+### Decision
+- Do not force Next 16 for remaining nested PostCSS advisories (breaking); demo stays on Next 15.5.x

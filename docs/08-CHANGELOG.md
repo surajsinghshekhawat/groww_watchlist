@@ -1,4 +1,4 @@
-# 08 � Changelog
+# 08 - Changelog
 
 All notable changes to this project are documented here.
 
@@ -7,7 +7,17 @@ Versions are informal until first demo tag.
 
 ---
 
-## [2026-09-05] � Continuous S, z sanity, digest trust polish
+## [2026-09-07] - Submission polish
+
+### Changed
+- README / docs: conflict demo symbol aligned to **TCS** (`DEMO_CONFLICT_SYMBOL`).
+- `.env.example` comment encoding cleaned; plan notes match demo email + Postgres port **55432**.
+- Removed unused `@tanstack/react-query` dependency.
+- Next.js bumped for known advisory patches (see `package.json`).
+
+---
+
+## [2026-09-05] - Continuous S, z sanity, digest trust polish
 
 ### Added
 - Continuous Significance inside severity bands (`significance_continuous`).
@@ -26,14 +36,14 @@ Versions are informal until first demo tag.
 
 ---
 
-## [2026-09-05] � Competition packaging + feedback + Yahoo provider
+## [2026-09-05] - Competition packaging + feedback + Yahoo provider
 
 ### Added
 
 - Attention feedback: `useful` / `noise` / `already_knew` (`event_feedback`, `POST /events/{id}/feedback`).
 - Optional `MARKET_DATA_MODE=yahoo` provider (yfinance + curl_cffi); **judge default remains `replay`**.
 - Competition-facing README, DEMO, docs index refresh.
-- Edge-case Wave 1�2 fixes (calibration gate, notify-once, digest edges, etc.).
+- Edge-case Wave 1-2 fixes (calibration gate, notify-once, digest edges, etc.).
 
 ### Changed
 
@@ -46,7 +56,7 @@ Versions are informal until first demo tag.
 
 ### Added
 
-- Phase 1�14 stack: FastAPI, Next.js, Postgres/Redis, scoring, digest, WebSocket, demo replay.
+- Phase 1-14 stack: FastAPI, Next.js, Postgres/Redis, scoring, digest, WebSocket, demo replay.
 - Redis-backed WebSocket fan-out + market worker heartbeats.
 - Frontend login, reconnect/polling sync, stale/conflict badges.
 - `docs/SECURITY.md`, `docs/API.md`, `docs/DEMO.md`.
@@ -57,12 +67,12 @@ Versions are informal until first demo tag.
 - Digest payload includes `data_age_seconds` / `data_conflict`.
 - Compose worker runs `python -m app.workers.market_worker`.
 - Compose Postgres host port **55432** (avoid local Windows Postgres clash).
-- Tasks 13�14 marked done; Tier 3 skipped.
+- Tasks 13-14 marked done; Tier 3 skipped.
 
 ### Security
 
 - Extra API headers (`X-Frame-Options`, `Permissions-Policy`, production HSTS).
-- Argon2id auth, IDOR ? 404, rate limits, JWT ownership checks.
+- Argon2id auth, IDOR returns 404, rate limits, JWT ownership checks.
 
 ### Removed
 
@@ -70,7 +80,7 @@ Versions are informal until first demo tag.
 
 ---
 
-## [2026-09-05] � Attention stability (mark-seen / live-sim)
+## [2026-09-05] - Attention stability (mark-seen / live-sim)
 
 ### Fixed
 - Mark-seen not sticking (version bump every ingest + novelty resurfacing)
@@ -86,7 +96,7 @@ Versions are informal until first demo tag.
 ## Template for future entries
 
 ```markdown
-## [YYYY-MM-DD] � Phase N short title
+## [YYYY-MM-DD] - Phase N short title
 
 ### Added
 - ...

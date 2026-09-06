@@ -38,7 +38,7 @@ ATTENTION = SIGNIFICANCE × NOVELTY × CONFIDENCE
 1. Watchlist = input (Groww-like curation).  
 2. Attention = product (`S · N · C` cards + **What we ignored**).  
 3. HDFC → High (filing + residual + volume); Reliance → suppressed (market-aligned).  
-4. Continuous \(S\) differentiates same-tier cards; INFY can show `DATA_CONFLICT` via demo knob.  
+4. Continuous \(S\) differentiates same-tier cards; TCS shows `DATA_CONFLICT` via `DEMO_CONFLICT_SYMBOL`.  
 5. Mark seen → novelty memory. Feedback / push / NLP are supporting, not the thesis.
 
 ---

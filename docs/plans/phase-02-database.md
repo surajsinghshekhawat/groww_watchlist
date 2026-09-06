@@ -20,9 +20,9 @@ SQLAlchemy models, Alembic initial migration, seed demo instruments/user/watchli
 
 ## Notes
 
-- Host Postgres mapped to **5433** to avoid conflict with an existing local Postgres on 5432.
+- Host Postgres mapped to **55432** to avoid conflict with an existing local Postgres on 5432.
 - Settings loads repo-root `.env`.
-- Demo login (dev only): `demo@watchlist.local` / `DemoPass123!`
+- Demo login (dev only): `demo@example.com` / `DemoPass123!`
 
 ## When Docker is up
 

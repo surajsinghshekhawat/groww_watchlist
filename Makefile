@@ -8,7 +8,7 @@ help:
 	@echo "  make build    Rebuild images"
 	@echo "  make health   Curl API /health"
 	@echo "  make test     Run backend pytest"
-	@echo "  make seed     Seed DB (Phase 2+)"
+	@echo "  make seed     Seed DB + demo pipeline"
 
 up:
 	docker compose up --build -d

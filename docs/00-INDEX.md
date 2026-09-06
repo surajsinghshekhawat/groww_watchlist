@@ -3,7 +3,7 @@
 **Project:** Groww CODE 2026 · Smart Market Watchlist  
 **Status:** Competition demo-ready (Tier 1 + Tier 2) — **[DEMO.md](./DEMO.md)**  
 **Default data:** `MARKET_DATA_MODE=replay`  
-**Last updated:** 2026-09-06  
+**Last updated:** 2026-09-07  
 **Scoring note:** Continuous \(S\) inside severity bands; see [SUGGESTION-ANALYSIS.md](./SUGGESTION-ANALYSIS.md) (must-list implemented).
 
 This folder is the source of truth for product, architecture, and changes.

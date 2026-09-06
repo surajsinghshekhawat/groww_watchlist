@@ -151,7 +151,7 @@ The critique is **directionally right and strategically useful**: your originali
 1. Fix template comma (#3)                         ✅ done
 2. Continuous S within severity (#6) + z sanity (#1) ✅ done
 3. Confidence breakdown UI (#14) + digest header (#13) ✅ done
-4. Scripted DATA_CONFLICT / stale demo beat (#5)   ✅ done (DEMO_CONFLICT_SYMBOL=INFY)
+4. Scripted DATA_CONFLICT / stale demo beat (#5)   ✅ done (DEMO_CONFLICT_SYMBOL=TCS)
 5. Retest alerts + NLP 4 (#2, #4)                  — manual before stage
 6. Demo: calibration-off 10s + lead ignored (#11, #19) ✅ DEMO.md + IgnoredStrip first
 ```

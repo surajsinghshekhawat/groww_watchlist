@@ -69,7 +69,7 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-    # Stub until Phase 5+ workers exist — heartbeat fan-out via Redis
+    # Optional market worker (heartbeat / fan-out via Redis)
     command: python -m app.workers.market_worker
 
   web:
