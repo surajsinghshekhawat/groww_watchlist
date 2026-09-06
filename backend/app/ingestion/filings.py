@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from uuid import UUID
 
+from app.core.paths import filings_catalog_path
 from app.seed import INSTRUMENT_IDS
 
 
@@ -23,7 +24,7 @@ class FilingRecord:
 
 
 def _path() -> Path:
-    return Path(__file__).resolve().parents[3] / "data" / "filings" / "demo_filings.json"
+    return filings_catalog_path()
 
 
 def load_filings(path: Path | None = None) -> list[FilingRecord]:

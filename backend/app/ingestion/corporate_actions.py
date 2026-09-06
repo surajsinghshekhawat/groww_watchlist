@@ -14,6 +14,7 @@ from decimal import Decimal
 from pathlib import Path
 from uuid import UUID
 
+from app.core.paths import filings_catalog_path
 from app.seed import INSTRUMENT_IDS
 
 
@@ -26,7 +27,7 @@ class CorporateAction:
 
 
 def _catalog_path() -> Path:
-    return Path(__file__).resolve().parents[3] / "data" / "filings" / "demo_filings.json"
+    return filings_catalog_path()
 
 
 def load_corporate_actions(path: Path | None = None) -> list[CorporateAction]:

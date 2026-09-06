@@ -1,0 +1,29 @@
+{
+  "filings": [
+    {
+      "symbol": "HDFCBANK",
+      "filing_id": "NSE-HDFCBANK-20260904",
+      "title": "Board meeting outcome — capital allocation update",
+      "published_at": "2026-09-04T07:45:00+00:00",
+      "earnings_window": false,
+      "corporate_action": null
+    },
+    {
+      "symbol": "SBIN",
+      "filing_id": "NSE-SBIN-20260904",
+      "title": "Regulatory disclosure — branch expansion plan",
+      "published_at": "2026-09-04T08:00:00+00:00",
+      "earnings_window": false,
+      "corporate_action": null
+    }
+  ],
+  "corporate_actions": [
+    {
+      "symbol": "WIPRO",
+      "action": "bonus",
+      "ratio": 1.0,
+      "ex_date": "2025-01-01",
+      "note": "Already adjusted in seed prices — adjuster is no-op when ratio=1"
+    }
+  ]
+}

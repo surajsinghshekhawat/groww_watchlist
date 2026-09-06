@@ -8,6 +8,7 @@ from decimal import Decimal
 from pathlib import Path
 from uuid import UUID
 
+from app.core.paths import replay_session_path
 from app.ingestion.base import RawObservation
 from app.ingestion.normalizer import validate_observation
 from app.seed import INSTRUMENT_IDS
@@ -15,8 +16,7 @@ from app.seed import INSTRUMENT_IDS
 
 class ReplayMarketDataProvider:
     def __init__(self, replay_path: Path | None = None) -> None:
-        root = Path(__file__).resolve().parents[3]
-        self.replay_path = replay_path or (root / "data" / "replay" / "demo_session.json")
+        self.replay_path = replay_path or replay_session_path()
         self._cache: list[RawObservation] | None = None
 
     def _load(self) -> list[RawObservation]:

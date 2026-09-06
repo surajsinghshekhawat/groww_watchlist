@@ -11,6 +11,7 @@ import httpx
 
 from app.core.config import settings
 from app.core.logging import get_logger
+from app.core.paths import filings_docs_dir
 
 logger = get_logger(__name__)
 
@@ -27,7 +28,7 @@ class RetrievedChunk:
 
 
 def _docs_dir() -> Path:
-    return Path(__file__).resolve().parents[3] / "data" / "filings" / "docs"
+    return filings_docs_dir()
 
 
 def _tokenize(text: str) -> list[str]:
