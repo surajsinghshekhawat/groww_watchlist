@@ -37,11 +37,11 @@ If Mark seen / fetch fails in Chrome, try **Incognito** (extensions can break `f
 | # | Doc | Why |
 |---|-----|-----|
 | 1 | **[docs/DEMO.md](./docs/DEMO.md)** | Live walkthrough (~2–6 min) |
-| 2 | **[docs/DECISIONS.md](./docs/DECISIONS.md)** | What we considered, deferred, or rejected — and why |
-| 3 | **[docs/PROJECT-COMPLETE.md](./docs/PROJECT-COMPLETE.md)** | Full deep dive — math, architecture, features |
-| 4 | **[docs/01-PRODUCT.md](./docs/01-PRODUCT.md)** | Problem, formula, non-goals |
-| 5 | **[docs/03-FEATURES.md](./docs/03-FEATURES.md)** | What shipped (Tier 1–2) |
-| 6 | **[docs/05-ARCHITECTURE.md](./docs/05-ARCHITECTURE.md)** | System design |
+| 2 | **[docs/ARCHITECTURE-OVERVIEW.md](./docs/ARCHITECTURE-OVERVIEW.md)** | System diagram + deploy + engine flow |
+| 3 | **[docs/DECISIONS.md](./docs/DECISIONS.md)** | What we considered, deferred, or rejected — and why |
+| 4 | **[docs/PROJECT-COMPLETE.md](./docs/PROJECT-COMPLETE.md)** | Full deep dive — math, architecture, features |
+| 5 | **[docs/01-PRODUCT.md](./docs/01-PRODUCT.md)** | Problem, formula, non-goals |
+| 6 | **[docs/03-FEATURES.md](./docs/03-FEATURES.md)** | What shipped (Tier 1–2) |
 | 7 | **[docs/API.md](./docs/API.md)** · **[docs/SECURITY.md](./docs/SECURITY.md)** | HTTP/WS + authz |
 
 **Eval (local):** `cd backend && python -m app.eval` → expect **5/5**.
@@ -79,7 +79,9 @@ If Mark seen / fetch fails in Chrome, try **Incognito** (extensions can break `f
 | Analytics | NumPy / Pandas / SciPy — interpretable detectors |
 | Local infra | Docker Compose for Postgres + Redis |
 
-Details: [docs/02-TECH-STACK.md](./docs/02-TECH-STACK.md)
+Details: [docs/02-TECH-STACK.md](./docs/02-TECH-STACK.md) · Architecture: [docs/ARCHITECTURE-OVERVIEW.md](./docs/ARCHITECTURE-OVERVIEW.md)
+
+![Architecture](./docs/assets/architecture-overview.png)
 
 ---
 
@@ -167,6 +169,7 @@ Full index: **[docs/00-INDEX.md](./docs/00-INDEX.md)**
 
 | Path | Purpose |
 |------|---------|
+| [docs/ARCHITECTURE-OVERVIEW.md](./docs/ARCHITECTURE-OVERVIEW.md) | Architecture diagram + Mermaid |
 | [docs/DECISIONS.md](./docs/DECISIONS.md) | Considered / deferred / rejected |
 | [docs/DEMO.md](./docs/DEMO.md) | Judge script |
 | [docs/PROJECT-COMPLETE.md](./docs/PROJECT-COMPLETE.md) | Complete reference |
