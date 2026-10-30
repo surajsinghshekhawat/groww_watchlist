@@ -23,8 +23,7 @@ ATTENTION = SIGNIFICANCE × NOVELTY × CONFIDENCE
 | | Link |
 |--|------|
 | **Live app** | [https://groww-watchlist-xi.vercel.app/](https://groww-watchlist-xi.vercel.app/) |
-| **Demo video (backup)** | [https://youtu.be/oLnDShTfm5I](https://youtu.be/oLnDShTfm5I) |
-| **Source** | [github.com/rajeshwari65/groww_watchlist](https://github.com/rajeshwari65/groww_watchlist) |
+
 
 **Login:** `demo@example.com` / `DemoPass123!`  
 **Data mode:** `MARKET_DATA_MODE=replay` (stable judge story).  
